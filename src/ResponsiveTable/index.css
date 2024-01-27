@@ -1,0 +1,13 @@
+.SiliconResponsiveTable {
+
+}
+
+@media (hover: hover) {
+  .mobileCell[class*="_isHoverable"]:hover {
+    cursor: pointer;
+  }
+}
+
+.mobileCell > [class="data-rows"] > [class="row"]:last-child {
+  border-bottom: none
+}

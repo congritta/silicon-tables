@@ -1,0 +1,23 @@
+.silicon-table {
+  width: 100%;
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.silicon-table th,
+.silicon-table td {
+  user-select: text;
+  text-align: center;
+  border: 1px solid #000;
+  font-size: 10.5pt;
+}
+
+.silicon-table th {
+  font-weight: bold;
+  font-size: 12pt;
+  text-transform: uppercase;
+}
+
+.silicon-table tr.isHoverable:hover td {
+  cursor: pointer;
+}
